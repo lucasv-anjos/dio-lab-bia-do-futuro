@@ -5,34 +5,36 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+o setor de investimentos possui diversas informações que não são confiaveis e de procedencia duvidosa
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+o assistente serve como um suporte para decisões e analise de investimentos com base em informações pré-estabelecidas
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+investidores iniciantes que ficam perdidos em diversos conteudos de investimentos e não sabem por onde começar
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+AI (assistente de investimentos)
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+- Comunicação clara
+- utiliza simulações
+- não recomenda investimentos e sim apresenta os riscos dos investimentos questionados
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+informal, acessivel, e didático - como um professor particular
 
 ### Exemplos de Linguagem
 - Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
@@ -59,10 +61,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Streamlit |
+| LLM | Olama(local) |
+| Base de Conhecimento | JSON/CSV |
 
 ---
 
@@ -71,11 +72,13 @@ flowchart TD
 ### Estratégias Adotadas
 
 - [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
+- [x] [ex: Respostas incluem fonte da informação]
 - [ ] [ex: Quando não sabe, admite e redireciona]
 - [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- não faz recomensação de investimentos
+- não acessa dados bancarios sensiveis
+- não substitui um profissional certificado
