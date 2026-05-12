@@ -88,5 +88,3 @@ Após os testes, registre suas conclusões:
 **O que pode melhorar:**
 - demora a resposta possivelmente vinculada a complexidade do gpt-oss, verificar a possibilidade de rodar o aplicativo em uma maquina dedicada para melhor desempenho
 - no código é explicitado para que utilize apenas 20 exemplos do dataset para melhor desempenho operacional, possivel aumentar o volume de informações sem precisar comprometer tanto o desempenho criando funções de pesquisa e filtro de informações porem exigiria maior complexidade
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
