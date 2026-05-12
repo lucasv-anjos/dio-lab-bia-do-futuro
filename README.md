@@ -76,13 +76,7 @@ flowchart TD
 │   └── 05-pitch.md                    # Roteiro do pitch (3 min)
 │
 ├── 📁 src/                            # Código da aplicação
-│   └── app.py                         # Aplicação Streamlit
-│
-└── 📁 data/                           # Dados mockados para o agente
-    ├── transacoes.csv                  # Histórico de transações do cliente
-    ├── historico_atendimento.csv       # Histórico de atendimentos anteriores
-    ├── perfil_investidor.json          # Perfil e preferências do investidor
-    └── produtos_financeiros.json       # Produtos e serviços disponíveis
+    └── app.py                         # Aplicação Streamlit
 ```
 
 ---
