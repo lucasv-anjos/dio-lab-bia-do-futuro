@@ -1,31 +1,33 @@
-# Código da Aplicação
+## Codigo fonta
 
-Esta pasta contém o código do seu agente financeiro.
+O código fonte está em src/app.py
 
-## Estrutura Sugerida
+## Estrutura
 
 ```
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
+├── app.py              # Aplicação principal (Streamlit)
 ```
 
-## Exemplo de requirements.txt
+## ferramentas utilizadas
 
 ```
+ollama
+gpt-oss
+python 3.14
 streamlit
-openai
-python-dotenv
+huggingface
 ```
 
 ## Como Rodar
 
 ```bash
 # Instalar dependências
-pip install -r requirements.txt
+pip install streamlit pandas requests huggingface_hub fsspec
+
+#garantir que o ollama está configurado na porta correta
+ollama serve
 
 # Rodar a aplicação
-streamlit run app.py
+streamlit run .\src\app.py
 ```
